@@ -20,7 +20,7 @@ function checkCreds(){
             document.getElementById(" LoginStatus").innerHTML ="Invalid Badgw Number! Please try Again"
     }else{
         alert("Access Has been granted"+ fullName);
-        location.replace(".blastOff.html");
+        location.replace("./blastOff.html");
     }
 
 }
